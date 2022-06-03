@@ -1,0 +1,52 @@
+﻿@inject NavigationManager _navigationManager
+
+<div class="container">
+    @if (furnitures != null)
+    {
+        <div class="row">
+            @for (int i = 0; i < furnitures.Count; i++)
+            {
+                if (i > 0 && i % 2 == 0)
+                {
+                @:</div><div class="row">
+                    // close and start new row
+                    }
+                    var furniture = furnitures[i];
+                <div class="col">
+                    <div class="divMakeOrder" >
+                        <img src=@furnitures[i].imageLink1 alt="" style="width:100%" @onclick="()=>toItem(furniture)">
+
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="fs-4">@furnitures[i].furnitureName</p>
+                            <p class="text-end fs-4">€@furnitures[i].price</p>
+                        </div>
+                    </div>
+                </div>
+
+                if (i == furnitures.Count - 1 && i % 2 == 0)
+                {
+                    <div class="col">
+
+                    </div>
+                }
+            }
+        </div>
+    }
+</div>
+
+    
+
+@code {
+    private List<Furniture>? furnitures;
+    [Inject]
+    private IFurnitureProvider furnitureProvider { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        furnitures = await furnitureProvider.GetAll();
+    }
+    public void toItem(Furniture furniture)
+    {
+        _navigationManager.NavigateTo($"/Furniture/{furniture.id}");
+    }
+}
+

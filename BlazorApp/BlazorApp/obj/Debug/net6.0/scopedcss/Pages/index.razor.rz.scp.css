@@ -1,0 +1,40 @@
+.rowMainPage[b-cawgfizwi4]::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rowMainPage[b-cawgfizwi4] {
+    position: relative;
+    width: 100.85%;
+}
+
+.textOnImage[b-cawgfizwi4] {
+    color: white;
+    position: absolute;
+    top: 100px;
+    padding-left: 30px;
+}
+
+.linkOnImage[b-cawgfizwi4] {
+    color: white;
+}
+
+.linkOnImage:hover[b-cawgfizwi4] {
+    color: antiquewhite;
+}
+
+.col[b-cawgfizwi4] {
+    float: left;
+    width: 33.3333333%;
+    padding: 0px;
+}
+
+body[b-cawgfizwi4]::-webkit-scrollbar {
+    display: none;
+}
+
+.featurette-divider[b-cawgfizwi4] {
+    margin: 5rem;
+}
+

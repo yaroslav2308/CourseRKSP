@@ -1,0 +1,40 @@
+﻿.rowMainPage::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rowMainPage {
+    position: relative;
+    width: 100.85%;
+}
+
+.textOnImage {
+    color: white;
+    position: absolute;
+    top: 100px;
+    padding-left: 30px;
+}
+
+.linkOnImage {
+    color: white;
+}
+
+.linkOnImage:hover {
+    color: antiquewhite;
+}
+
+.col {
+    float: left;
+    width: 33.3333333%;
+    padding: 0px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.featurette-divider {
+    margin: 5rem;
+}
+

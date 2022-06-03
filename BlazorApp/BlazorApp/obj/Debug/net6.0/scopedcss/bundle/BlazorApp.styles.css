@@ -1,0 +1,283 @@
+/* /Components/HorizontalFurnitureList/HorizontalFurnitureList.razor.rz.scp.css */
+
+.col-md-12[b-ac5t9nuoe1]::-webkit-scrollbar {
+    display: none;
+}
+
+.col-md-12[b-ac5t9nuoe1] {
+    overflow-y: hidden;
+}
+
+
+.my-div[b-ac5t9nuoe1] {
+    width: 390px;
+    height: 390px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: inline-block;
+}
+/* /Components/IndividualDesignForm/IndividualDesignForm.razor.rz.scp.css */
+input[type=text][b-e9qpu2iamo] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus[b-e9qpu2iamo] {
+    border: 2px solid #555;
+}
+
+.makeOrderButton[b-e9qpu2iamo] {
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+    .makeOrderButton:hover[b-e9qpu2iamo] {
+        background-color: #6b6b6b;
+    }
+
+.featurette-divider[b-e9qpu2iamo] {
+    margin: 5rem;
+}
+/* /Components/VerticalFurnitureGrid/VerticalFurnitureGrid.razor.rz.scp.css */
+
+.divMakeOrder[b-c75wdc1qbc] {
+    width: 100%;
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.featurette-divider[b-c75wdc1qbc] {
+    margin: 5rem;
+}
+
+.col[b-c75wdc1qbc] {
+    float: left;
+    width: 33.3333333%;
+    padding: 0px;
+}
+/* /Pages/AboutPage.razor.rz.scp.css */
+
+.divAboutPage[b-cwebpj81i4] {
+    width: 100%;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.featurette-divider[b-cwebpj81i4] {
+    margin: 5rem;
+}
+/* /Pages/CartPage.razor.rz.scp.css */
+.featurette-divider[b-qggggsjas5] {
+    margin: 5rem;
+}
+
+.continueShopping[b-qggggsjas5] {
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: auto;
+    height: 50px;
+}
+
+.continueShopping:hover[b-qggggsjas5] {
+    background-color: #6b6b6b;
+}
+
+.makeOrderButton[b-qggggsjas5] {
+    padding: 12px 20px;
+    margin-top: 8px;
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: 100%;
+    display: block;
+    line-height: 20px;
+    height: 52px;
+}
+
+.makeOrderButton:hover[b-qggggsjas5] {
+    background-color: #6b6b6b;
+}
+
+input[type=text][b-qggggsjas5] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus[b-qggggsjas5] {
+    border: 2px solid #555;
+}
+
+.col[b-qggggsjas5] {
+    float: left;
+    width: 33.3333333%;
+    padding: 0px;
+}
+
+.col-md-12[b-qggggsjas5]::-webkit-scrollbar {
+    display: none;
+}
+
+.col-md-12[b-qggggsjas5] {
+    overflow-y: hidden;
+    height: 485px;
+}
+
+
+.my-div[b-qggggsjas5] {
+    width: 390px;
+    height: 390px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: inline-block;
+}
+
+.goToPage[b-qggggsjas5] {
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+.goToPage:hover[b-qggggsjas5] {
+    background-color: #6b6b6b;
+}
+
+.removeButton[b-qggggsjas5] {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+
+.removeButton:hover[b-qggggsjas5] {
+    background-color: #6b6b6b;
+}
+/* /Pages/FurnitureListPage.razor.rz.scp.css */
+
+
+
+
+
+
+/* /Pages/FurniturePage.razor.rz.scp.css */
+
+.rowMainPage[b-eagqv9klyv]::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rowMainPage[b-eagqv9klyv] {
+    position: relative;
+    width: 100.85%;
+}
+
+.addToCartButton[b-eagqv9klyv] {
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+.addToCartButton:hover[b-eagqv9klyv] {
+    background-color: #6b6b6b;
+}
+
+.productPage[b-eagqv9klyv] {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+
+/* /Pages/index.razor.rz.scp.css */
+.rowMainPage[b-cawgfizwi4]::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rowMainPage[b-cawgfizwi4] {
+    position: relative;
+    width: 100.85%;
+}
+
+.textOnImage[b-cawgfizwi4] {
+    color: white;
+    position: absolute;
+    top: 100px;
+    padding-left: 30px;
+}
+
+.linkOnImage[b-cawgfizwi4] {
+    color: white;
+}
+
+.linkOnImage:hover[b-cawgfizwi4] {
+    color: antiquewhite;
+}
+
+.col[b-cawgfizwi4] {
+    float: left;
+    width: 33.3333333%;
+    padding: 0px;
+}
+
+body[b-cawgfizwi4]::-webkit-scrollbar {
+    display: none;
+}
+
+.featurette-divider[b-cawgfizwi4] {
+    margin: 5rem;
+}
+
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-3ij3p7wwc4] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.featurette-divider[b-3ij3p7wwc4] {
+    margin: 5rem;
+}
+
+body[b-3ij3p7wwc4]::-webkit-scrollbar {
+    display: none;
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+
+

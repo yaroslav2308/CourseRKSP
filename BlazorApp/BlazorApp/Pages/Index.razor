@@ -1,0 +1,38 @@
+﻿@page "/"
+@using BlazorApp.Components.HorizontalFurnitureList
+
+<PageTitle>Yarik & Co</PageTitle>
+
+<div class="row rowMainPage">
+    <div class="col">
+        <img src="Images/dinner.png" alt="" style="width:100%; height: 585px; object-fit: cover">
+    </div>
+    <div class="col">
+        <img src="Images/mirror.png" alt="" style="width:100%; height: 585px; object-fit: cover">
+    </div>
+    <div class="col">
+        <img src="Images/table2.png" alt="" style="width:100%; height: 585px; object-fit: cover">
+    </div>
+    <p class="textOnImage display-4">
+        express yourself
+        <br>
+        in furniture
+        <br>
+        <a class="linkOnImage fs-2" href="/Furniture">make order</a>
+    </p>
+</div>
+
+<h1 class="display-2 text-center" style="padding-top: 2rem; padding-bottom: 2rem">Our products</h1>
+
+<HorizontalFurnitureList/>
+
+<hr class="featurette-divider">
+
+<footer class="container">
+    <p class="float-end fs-4"><a href="#">Back to top</a></p>
+    <p class="fs-4">© All rights reserved. 2022</p>
+</footer>
+
+
+
+

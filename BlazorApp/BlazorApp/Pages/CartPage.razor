@@ -1,0 +1,252 @@
+﻿@page "/CartPage"
+@inject NavigationManager _navigationManager
+
+<div style="margin-inline: 5rem; margin-top: 3rem">
+    @if (CartSingleton.getInstance().isMadeOrder)
+    {
+        <h2>Thank you for your order, it will be delivered to you soon</h2>
+        <hr class="featurette-divider mx-0 mt-0 mb-3">
+        <a href="/Furniture">
+            <button @onclick="toggleFlag" class="continueShopping" style="border-radius: 0px!important; ">Continue shopping</button>
+        </a>
+
+    }
+    else
+    {
+        <h1>Shopping Cart</h1>
+        <hr class="featurette-divider mx-0 mt-0 mb-5">
+
+        @if (furnitures.Any())
+        {
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="overflow-x: scroll; white-space: nowrap;">
+
+
+                        @foreach (var furniture in furnitures)
+                        {
+                            <div class="my-div">
+                                <img src=@furniture.imageLink1 alt="" style="width:100%" @onclick="()=>toItem(furniture)">
+                                <div style="display: flex; justify-content: space-between;">
+                                    <p class="fs-4">@furniture.furnitureName</p>
+                                    <p class="text-end fs-4">€@furniture.price</p>
+
+                                </div>
+                                <button class="removeButton" @onclick="()=>removeFurniture(furniture)" style="border-radius: 0px!important; ">Remove</button>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <hr class="featurette-divider" style="margin-top: 3rem; margin-bottom: 3rem">
+
+            <div class="container" style="width: 750px">
+                @if (flag)
+                {
+                    <h1 class="display-6 text-center">
+                        Client information
+                    </h1>
+                    <div class="row">
+                        <div class="col me-4">
+                            <input type="text" @bind="@name" @oninput="@((e) => { name=(string)e.Value;})" placeholder="Name">
+                        </div>
+                        <div class="col">
+                            <input type="text" @bind="@email" @oninput="@((e) => { email=(string)e.Value;})" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col me-4">
+                            <input type="text" @bind="@phone" @oninput="@((e) => { phone=(string)e.Value;})" placeholder="Phone">
+                        </div>
+                        <div class="col">
+                            <input type="text" @bind="@destination" @oninput="@((e) => { destination=(string)e.Value;})" placeholder="Destination">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button @onclick="makeClient" class="makeOrderButton">Insert my info</button>
+                    </div>
+                }
+                else
+                {
+                    <h1 class="display-6 text-center">
+                        @for (int i = 0; i < furnitures.Count; i++)
+                        {
+                            totalPrice += furnitures[i].price;
+                        }
+                        Total price: @totalPrice
+                    </h1>
+                    <div class="row">
+                        <button @onclick="makeOrder" class="makeOrderButton">Make order</button>
+                    </div>
+                }
+
+            </div>
+
+
+        }
+        else
+        {
+            <h3 style="margin-bottom: 2rem">You have no items in your shopping cart.</h3>
+            <a href="/Furniture">
+                <button class="goToPage" style="border-radius: 0px!important; ">Furniture</button>
+            </a>
+        }
+    }
+
+</div>
+
+
+
+<hr class="featurette-divider">
+
+<footer class="container">
+    <p class="float-end fs-4"><a href="/CartPage/#">Back to top</a></p>
+    <p class="fs-4">© All rights reserved. 2022</p>
+</footer>
+
+
+@code {
+
+
+    public void toItem(Furniture furniture)
+    {
+        _navigationManager.NavigateTo($"/Furniture/{furniture.id}");
+    }
+
+    public void removeFurniture(Furniture furniture)
+    {
+        CartSingleton.getInstance().furnitures.Remove(furniture);
+        totalPrice = 0;
+    }
+
+    private string name { get; set; } = "";
+    private string email { get; set; } = "";
+    private string phone { get; set; } = "";
+    private string destination { get; set; } = "";
+    private int totalPrice = 0;
+
+    public int clientIndex;
+    public bool flag = true;
+
+    private List<Driver>? drivers;
+    private List<Carpenter>? carpenters;
+    private List<Client>? clients;
+    private List<Client>? clientsWhenLoad;
+    private List<Furniture> furnitures = CartSingleton.getInstance().furnitures;
+
+    [Inject]
+    private IClientProvider clientProvider { get; set; }
+    [Inject]
+    private IOrderProvider orderProvider { get; set; }
+    [Inject]
+    private IDriverProvider driverProvider { get; set; }
+    [Inject]
+    private ICarpenterProvider carpenterProvider { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        drivers = await driverProvider.GetAll();
+        carpenters = await carpenterProvider.GetAll();
+        clientsWhenLoad = await clientProvider.GetAll();
+    }
+
+    private async Task addOrder(OrderDTO order)
+    {
+        await orderProvider.Add(order);
+    }
+
+    private int takeDriverIndex()
+    {
+        var rand = new Random();
+        int driversCount = drivers.Count;
+        int index = rand.Next(1, driversCount + 1);
+        return index;
+    }
+
+    private int takeCarpenterIndex()
+    {
+        var rand = new Random();
+        int carpentersCount = carpenters.Count;
+        int index = rand.Next(1, carpentersCount + 1);
+        return index;
+    }
+
+    private int[] listOfFurnituresIndexes()
+    {
+        List<int> indexes = new List<int>();
+        for (int i = 0; i < furnitures.Count; i++)
+        {
+            indexes.Add(furnitures[i].id);
+        }
+        int[] indexesArray = indexes.ToArray();
+        return indexesArray;
+    }
+
+    @*private async Task getClients()
+    {
+        clients = await clientProvider.GetAll();
+        clientIndex = clients.Last().id + 1;
+    }*@
+
+
+    private void makeClient()
+    {
+        if (name != "" && email != "" && phone != "" && destination != "")
+        {
+            for (int i = 0; i < clientsWhenLoad.Count; i++)
+            {
+                if (phone == clientsWhenLoad[i].phone)
+                {
+                    clientIndex = i + 1;
+                    flag = false;
+                    return;
+                }
+            }
+
+            ClientDTO client = new ClientDTO
+            {
+                name = name,
+                email = email,
+                phone = phone,
+                orders = new int[] { }
+            };
+
+            clientProvider.Add(client);
+            clientIndex = clientsWhenLoad.Count + 1;
+            flag = false;
+        }
+    }
+
+    private void makeOrder()
+    {
+        int carpenterIndex = takeCarpenterIndex();
+        int driverIndex = takeDriverIndex();
+        int[] listOfFurnitures = listOfFurnituresIndexes();
+
+
+        OrderDTO order = new OrderDTO
+        {
+            destination = destination,
+            driver = driverIndex,
+            carpenter = carpenterIndex,
+            client = clientIndex,
+            furnitures = listOfFurnitures,
+        };
+
+
+
+        addOrder(order);
+        CartSingleton.getInstance().isMadeOrder = true;
+        CartSingleton.getInstance().furnitures = new List<Furniture>();
+        totalPrice = 0;
+        Console.WriteLine(CartSingleton.getInstance().furnitures.Count);
+    }
+
+    private void toggleFlag()
+    {
+        CartSingleton.getInstance().isMadeOrder = false;
+    }
+}
+

@@ -1,0 +1,113 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'BlazorApp' ">
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.4" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Data\" />
+    <None Remove="Data\Models\" />
+    <None Remove="Services\" />
+    <None Remove="Components\" />
+    <None Remove="Components\HorizontalFurnitureList\" />
+    <None Remove="Services\FurnitureProvider\" />
+    <None Remove="Services\ClientProvider\" />
+    <None Remove="Components\VertivalFurnitureGrid\" />
+    <None Remove="Services\DriverProvider\" />
+    <None Remove="Components\IndividualDesignForm\" />
+    <None Remove="Data\DTOs\" />
+    <None Remove="Services\CartSingleton\" />
+    <None Remove="Services\OrderProvider\" />
+    <None Remove="Services\CarpenterProvider\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Data\Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Components\" />
+    <Folder Include="Components\HorizontalFurnitureList\" />
+    <Folder Include="Services\FurnitureProvider\" />
+    <Folder Include="Services\ClientProvider\" />
+    <Folder Include="Components\VerticalFurnitureGrid\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="Services\DriverProvider\" />
+    <Folder Include="Components\IndividualDesignForm\" />
+    <Folder Include="Data\DTOs\" />
+    <Folder Include="Services\CartSingleton\" />
+    <Folder Include="Services\OrderProvider\" />
+    <Folder Include="Services\CarpenterProvider\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\.DS_Store" />
+    <Content Remove="wwwroot\Images\chair.png" />
+    <Content Remove="wwwroot\Images\chairGreen.png" />
+    <Content Remove="wwwroot\Images\cupboard.png" />
+    <Content Remove="wwwroot\Images\cupboard2.png" />
+    <Content Remove="wwwroot\Images\cupboard2PageImage.png" />
+    <Content Remove="wwwroot\Images\cupboard2PageImage2.png" />
+    <Content Remove="wwwroot\Images\cupboard2PageImage3.png" />
+    <Content Remove="wwwroot\Images\cupboard3.png" />
+    <Content Remove="wwwroot\Images\cupboard3PageImage.png" />
+    <Content Remove="wwwroot\Images\cupboard3PageImage2.png" />
+    <Content Remove="wwwroot\Images\cupboard3PageImage3.png" />
+    <Content Remove="wwwroot\Images\cupboardImagePage2.png" />
+    <Content Remove="wwwroot\Images\cupboardImagePage3.png" />
+    <Content Remove="wwwroot\Images\cupboardPageImage.png" />
+    <Content Remove="wwwroot\Images\dinner.png" />
+    <Content Remove="wwwroot\Images\furniture.png" />
+    <Content Remove="wwwroot\Images\greenChairPageImage.png" />
+    <Content Remove="wwwroot\Images\greenChairPageImage2.png" />
+    <Content Remove="wwwroot\Images\greenChairPageImage3.png" />
+    <Content Remove="wwwroot\Images\mirror.png" />
+    <Content Remove="wwwroot\Images\table.png" />
+    <Content Remove="wwwroot\Images\table2.png" />
+    <Content Remove="wwwroot\Images\tableBlack.png" />
+    <Content Remove="wwwroot\Images\tableBlackPageImage.png" />
+    <Content Remove="wwwroot\Images\tableBlackPageImage2.png" />
+    <Content Remove="wwwroot\Images\tableBlackPageImage3.png" />
+    <Content Remove="wwwroot\Images\yarikImage.jpg" />
+    <Content Remove="wwwroot\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Images\.DS_Store" />
+    <None Include="wwwroot\Images\chair.png" />
+    <None Include="wwwroot\Images\chairGreen.png" />
+    <None Include="wwwroot\Images\cupboard.png" />
+    <None Include="wwwroot\Images\cupboard2.png" />
+    <None Include="wwwroot\Images\cupboard2PageImage.png" />
+    <None Include="wwwroot\Images\cupboard2PageImage2.png" />
+    <None Include="wwwroot\Images\cupboard2PageImage3.png" />
+    <None Include="wwwroot\Images\cupboard3.png" />
+    <None Include="wwwroot\Images\cupboard3PageImage.png" />
+    <None Include="wwwroot\Images\cupboard3PageImage2.png" />
+    <None Include="wwwroot\Images\cupboard3PageImage3.png" />
+    <None Include="wwwroot\Images\cupboardImagePage2.png" />
+    <None Include="wwwroot\Images\cupboardImagePage3.png" />
+    <None Include="wwwroot\Images\cupboardPageImage.png" />
+    <None Include="wwwroot\Images\dinner.png" />
+    <None Include="wwwroot\Images\furniture.png" />
+    <None Include="wwwroot\Images\greenChairPageImage.png" />
+    <None Include="wwwroot\Images\greenChairPageImage2.png" />
+    <None Include="wwwroot\Images\greenChairPageImage3.png" />
+    <None Include="wwwroot\Images\mirror.png" />
+    <None Include="wwwroot\Images\table.png" />
+    <None Include="wwwroot\Images\table2.png" />
+    <None Include="wwwroot\Images\tableBlack.png" />
+    <None Include="wwwroot\Images\tableBlackPageImage.png" />
+    <None Include="wwwroot\Images\tableBlackPageImage2.png" />
+    <None Include="wwwroot\Images\tableBlackPageImage3.png" />
+    <None Include="wwwroot\Images\yarikImage.jpg" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+.page[b-3ij3p7wwc4] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.featurette-divider[b-3ij3p7wwc4] {
+    margin: 5rem;
+}
+
+body[b-3ij3p7wwc4]::-webkit-scrollbar {
+    display: none;
+}

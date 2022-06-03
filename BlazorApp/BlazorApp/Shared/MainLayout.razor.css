@@ -1,0 +1,13 @@
+﻿.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.featurette-divider {
+    margin: 5rem;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

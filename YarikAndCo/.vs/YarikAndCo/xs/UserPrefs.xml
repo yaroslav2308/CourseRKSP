@@ -1,0 +1,72 @@
+﻿<Properties StartupConfiguration="{A0D9992E-AC40-420A-96BA-6D9B56789E03}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../BlazorApp/BlazorApp/Pages/CartPage.razor">
+    <Files>
+      <File FileName="YarikAndCo/Data/Models/Client.cs" Line="16" Column="5" />
+      <File FileName="YarikAndCo/Data/Models/Furniture.cs" Line="22" Column="51" />
+      <File FileName="YarikAndCo/Data/Models/Order.cs" Line="16" Column="5" />
+      <File FileName="YarikAndCo/Data/Services/ClientService.cs" Line="21" Column="17" />
+      <File FileName="YarikAndCo/Data/Services/FurnitureService.cs" Line="44" Column="75" />
+      <File FileName="YarikAndCo/Data/Services/OrderService.cs" Line="24" Column="1" />
+      <File FileName="YarikAndCo/Data/DTOs/ClientDTO.cs" Line="8" Column="21" />
+      <File FileName="YarikAndCo/Controllers/ClientController.cs" Line="46" Column="81" />
+      <File FileName="YarikAndCo/Controllers/FurnitureController.cs" Line="37" Column="68" />
+      <File FileName="YarikAndCo/Controllers/OrderController.cs" Line="46" Column="76" />
+      <File FileName="YarikAndCo/Data/FurnitureStoreContext.cs" Line="40" Column="1" />
+      <File FileName="YarikAndCo/Program.cs" Line="28" Column="1" />
+      <File FileName="YarikAndCo/Data/DTOs/OrderDTO.cs" Line="4" Column="44" />
+      <File FileName="YarikAndCo/Data/Models/Driver.cs" Line="1" Column="1" />
+      <File FileName="YarikAndCo/Data/Models/Carpenter.cs" Line="11" Column="32" />
+      <File FileName="YarikAndCo/Data/DTOs/DriverDTO.cs" Line="8" Column="38" />
+      <File FileName="YarikAndCo/Data/DTOs/CarpenterDTO.cs" Line="8" Column="38" />
+      <File FileName="YarikAndCo/Data/Services/CarpenterService.cs" Line="36" Column="53" />
+      <File FileName="YarikAndCo/Data/Services/DriverService.cs" Line="70" Column="29" />
+      <File FileName="YarikAndCo/Controllers/CarpenterController.cs" Line="48" Column="61" />
+      <File FileName="YarikAndCo/Controllers/DriverController.cs" Line="60" Column="49" />
+      <File FileName="../BlazorApp/BlazorApp/Services/ClientProvider/ClientsProvider.cs" Line="1" Column="1" />
+      <File FileName="../BlazorApp/BlazorApp/Data/Models/Client.cs" Line="9" Column="51" />
+      <File FileName="../BlazorApp/BlazorApp/Data/Models/Furniture.cs" Line="14" Column="42" />
+      <File FileName="../BlazorApp/BlazorApp/Pages/CartPage.razor" Line="110" Column="2" />
+      <File FileName="../BlazorApp/BlazorApp/Pages/AboutPage.razor" Line="1" Column="1" />
+      <File FileName="../BlazorApp/BlazorApp/Data/DTOs/ClientDTO.cs" Line="1" Column="1" />
+      <File FileName="../BlazorApp/BlazorApp/Data/DTOs/OrderDTO.cs" Line="1" Column="1" />
+      <File FileName="../BlazorApp/BlazorApp/Data/Models/Carpenter.cs" Line="1" Column="1" />
+      <File FileName="../BlazorApp/BlazorApp/Data/Models/Driver.cs" Line="1" Column="1" />
+      <File FileName="../BlazorApp/BlazorApp/Pages/FurnitureListPage.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="YarikAndCo" expanded="True">
+            <Node name="BlazorApp" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="DTOs" expanded="True" />
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="CartPage.razor" selected="True" />
+              </Node>
+            </Node>
+            <Node name="YarikAndCo" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="DTOs" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.YarikAndCo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,57 @@
+﻿<Properties StartupConfiguration="{1C33B415-5914-4C15-896B-9464437244A9}|Default">
+  <MonoDevelop.Ide.ItemProperties.BlazorApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorApp/Pages/ClientPage.razor">
+    <Files>
+      <File FileName="BlazorApp/Shared/MainLayout.razor.css" Line="1" Column="1" />
+      <File FileName="BlazorApp/App.razor" Line="1" Column="1" />
+      <File FileName="BlazorApp/Shared/NavMenu.razor" Line="31" Column="1" />
+      <File FileName="BlazorApp/Pages/Index.razor" Line="5" Column="13" />
+      <File FileName="BlazorApp/Data/Models/Client.cs" Line="9" Column="51" />
+      <File FileName="BlazorApp/Data/Models/Order.cs" Line="11" Column="59" />
+      <File FileName="BlazorApp/Data/Models/Carpenter.cs" Line="9" Column="51" />
+      <File FileName="BlazorApp/Data/Models/Driver.cs" Line="9" Column="51" />
+      <File FileName="BlazorApp/Data/Models/Furniture.cs" Line="7" Column="41" />
+      <File FileName="../YarikAndCo/Data/Models/Client.cs" Line="16" Column="51" />
+      <File FileName="../YarikAndCo/Data/Models/Driver.cs" Line="16" Column="51" />
+      <File FileName="../YarikAndCo/Data/Models/Order.cs" Line="17" Column="59" />
+      <File FileName="../YarikAndCo/Data/Models/Furniture.cs" Line="13" Column="41" />
+      <File FileName="BlazorApp/Services/ClientProvider.cs" Line="2" Column="33" />
+      <File FileName="BlazorApp/Services/ClientsProvider.cs" Line="42" Column="61" />
+      <File FileName="BlazorApp/Program.cs" Line="12" Column="60" />
+      <File FileName="BlazorApp/Components/ClientsList/ClientsList.razor" Line="9" Column="22" />
+      <File FileName="BlazorApp/Components/ClientsList/ClientsList.razor.css" Line="1" Column="1" />
+      <File FileName="BlazorApp/Pages/ClientPage.razor" Line="36" Column="13" />
+      <File FileName="BlazorApp/Pages/ClientPage.razor.css" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorApp" expanded="True" selected="True">
+            <Node name="BlazorApp" expanded="True">
+              <Node name="Components" expanded="True">
+                <Node name="ClientsList" expanded="True">
+                  <Node name="ClientsList.razor" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Data" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="ClientPage.razor" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

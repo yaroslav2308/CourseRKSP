@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{7F3192D9-D68E-4D7C-869C-F2EDC2215B82}|BlazorApp">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/CartPage.razor">
+    <Files>
+      <File FileName="Services/ClientProvider/IClientProvider.cs" Line="8" Column="31" />
+      <File FileName="Services/ClientProvider/ClientsProvider.cs" Line="43" Column="66" />
+      <File FileName="Services/DriverProvider/IDriverProvider.cs" Line="7" Column="29" />
+      <File FileName="Services/DriverProvider/DriverProvider.cs" Line="41" Column="61" />
+      <File FileName="Components/IndividualDesignForm/IndividualDesignForm.razor" Line="21" Column="10" />
+      <File FileName="Components/IndividualDesignForm/IndividualDesignForm.razor.css" Line="15" Column="2" />
+      <File FileName="Shared/MainLayout.razor" Line="1" Column="1" />
+      <File FileName="Shared/NavMenu.razor" Line="19" Column="43" />
+      <File FileName="Shared/NavMenu.razor.css" Line="1" Column="1" />
+      <File FileName="Pages/CartPage.razor" Line="53" Column="107" />
+      <File FileName="Pages/CartPage.razor.css" Line="99" Column="2" />
+      <File FileName="Pages/AboutPage.razor" Line="40" Column="1" />
+      <File FileName="Pages/AboutPage.razor.css" Line="11" Column="1" />
+      <File FileName="Data/Models/Carpenter.cs" Line="1" Column="1" />
+      <File FileName="Data/Models/Client.cs" Line="1" Column="1" />
+      <File FileName="Components/HorizontalFurnitureList/HorizontalFurnitureList.razor.css" Line="2" Column="1" />
+      <File FileName="Components/HorizontalFurnitureList/HorizontalFurnitureList.razor" Line="26" Column="1" />
+      <File FileName="Services/CartSingleton/CartSingleton.cs" Line="17" Column="2" />
+      <File FileName="Pages/FurniturePage.razor.css" Line="1" Column="1" />
+      <File FileName="Pages/FurniturePage.razor" Line="77" Column="70" />
+      <File FileName="Components/ClientForm/ClientForm.razor" Line="157" Column="6" />
+      <File FileName="Components/HorizontalFurnitureCartList/HorizontalFurnitureCartList.razor.css" Line="1" Column="1" />
+      <File FileName="Services/OrderProvider/IOrderProvider.cs" Line="1" Column="1" />
+      <File FileName="Services/OrderProvider/OrderProvider.cs" Line="1" Column="1" />
+      <File FileName="Data/DTOs/OrderDTO.cs" Line="3" Column="2" />
+      <File FileName="Data/Models/Order.cs" Line="4" Column="32" />
+      <File FileName="Pages/FurnitureListPage.razor" Line="1" Column="1" />
+      <File FileName="Components/ClientForm/ClientForm.razor.css" Line="1" Column="1" />
+      <File FileName="Data/Models/Furniture.cs" Line="1" Column="1" />
+      <File FileName="Data/DTOs/ClientDTO.cs" Line="1" Column="1" />
+      <File FileName="Components/VerticalFurnitureGrid/VerticalFurnitureGrid.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorApp" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BlazorApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

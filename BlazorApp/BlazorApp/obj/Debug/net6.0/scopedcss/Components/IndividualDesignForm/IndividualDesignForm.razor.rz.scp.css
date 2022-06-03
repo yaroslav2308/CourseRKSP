@@ -1,0 +1,32 @@
+input[type=text][b-e9qpu2iamo] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus[b-e9qpu2iamo] {
+    border: 2px solid #555;
+}
+
+.makeOrderButton[b-e9qpu2iamo] {
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+    .makeOrderButton:hover[b-e9qpu2iamo] {
+        background-color: #6b6b6b;
+    }
+
+.featurette-divider[b-e9qpu2iamo] {
+    margin: 5rem;
+}

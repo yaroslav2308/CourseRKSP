@@ -1,0 +1,39 @@
+﻿@inject NavigationManager _navigationManager
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="overflow-x: scroll; white-space: nowrap;">
+
+            @if (furnitures != null)
+            {
+                @foreach (var furniture in furnitures)
+                {
+                    <div class="my-div">
+                        <img src=@furniture.imageLink1 alt="" style="width:100%" @onclick="()=>toItem(furniture)">
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="fs-4">@furniture.furnitureName</p>
+                            <p class="text-end fs-4">€@furniture.price</p>
+                        </div>
+                    </div>
+                }
+            }
+
+            
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Furniture>? furnitures;
+    [Inject]
+    private IFurnitureProvider furnitureProvider { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        furnitures = await furnitureProvider.GetAll();
+    }
+    public void toItem(Furniture furniture)
+    {
+        _navigationManager.NavigateTo($"/Furniture/{furniture.id}");
+    }
+}
+

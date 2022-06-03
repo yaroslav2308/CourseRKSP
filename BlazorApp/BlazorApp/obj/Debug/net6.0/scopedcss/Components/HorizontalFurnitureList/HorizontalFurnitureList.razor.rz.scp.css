@@ -1,0 +1,17 @@
+
+.col-md-12[b-ac5t9nuoe1]::-webkit-scrollbar {
+    display: none;
+}
+
+.col-md-12[b-ac5t9nuoe1] {
+    overflow-y: hidden;
+}
+
+
+.my-div[b-ac5t9nuoe1] {
+    width: 390px;
+    height: 390px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: inline-block;
+}

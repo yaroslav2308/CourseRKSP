@@ -1,0 +1,32 @@
+﻿
+.rowMainPage::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rowMainPage {
+    position: relative;
+    width: 100.85%;
+}
+
+.addToCartButton {
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+.addToCartButton:hover {
+    background-color: #6b6b6b;
+}
+
+.productPage {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+

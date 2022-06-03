@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = FurnitureStore
+build_property.RootNamespace = FurnitureStore
+build_property.ProjectDir = /Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/Clients/ClientsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xpZW50cy9DbGllbnRzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Components/HorizontalFurnitureList/HorizontalFurnitureList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ib3Jpem9udGFsRnVybml0dXJlTGlzdC9Ib3Jpem9udGFsRnVybml0dXJlTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-a3ou5k61x0
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Components/VerticalFurnitureGrid/VerticalFurnitureGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9WZXJ0aWNhbEZ1cm5pdHVyZUdyaWQvVmVydGljYWxGdXJuaXR1cmVHcmlkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-zjm9yo88eq
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/AboutPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-jvgfyfoyib
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/Clients/ClientPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xpZW50cy9DbGllbnRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-jbw31ngi71
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/Drivers/DriverPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJpdmVycy9Ecml2ZXJQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-je6chvftao
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/Drivers/DriversPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJpdmVycy9Ecml2ZXJzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zv079g5u08
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/FurniturePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRnVybml0dXJlUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6a1ym6ejy1
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bmofyopucb
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Pages/MakeOrderPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFrZU9yZGVyUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7pqv1ft57u
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Zvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-x2vg07hgkr
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-os0vrh32h7
+
+[/Users/yaroslavmonastyrev/Desktop/Desktop 🤓/LABY-CLIENTSERVER/BlazorApp/BlazorApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-neitwh322b

@@ -1,0 +1,32 @@
+
+.rowMainPage[b-eagqv9klyv]::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rowMainPage[b-eagqv9klyv] {
+    position: relative;
+    width: 100.85%;
+}
+
+.addToCartButton[b-eagqv9klyv] {
+    color: white;
+    font-size: 23px;
+    background-color: black;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+.addToCartButton:hover[b-eagqv9klyv] {
+    background-color: #6b6b6b;
+}
+
+.productPage[b-eagqv9klyv] {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+
